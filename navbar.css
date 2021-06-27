@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+a,
+li,
+button {
+  text-decoration: none !important;
+}
+
+#logo-desk {
+  display: none;
+}
+nav img {
+  padding-left: 0 !important;
+}
+#logo-mobile {
+  left: 0 !important;
+}
+nav {
+  background: #1f7fb2;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.custom-toggler {
+  color: white;
+  font-size: 1.7rem;
+}
+.nav-link {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sign-btn {
+  border-radius: 30px !important;
+  background: #1f7fb2 !important;
+  border-color: #ffffff !important;
+}
+.sign-btn a {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.close {
+  display: none;
+}
+.close-icon {
+  color: #ffffff;
+  opacity: 1;
+}
+/* ************************ media query******/
+@media (min-width: 768px) {
+  nav {
+    background: none;
+  }
+
+  #logo-desk {
+    position: absolute;
+    display: block;
+    max-height: 80%;
+    max-width: 90%;
+    /* left: 0 !important; */
+  }
+
+  .nav-link {
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color: #1f7fb2 !important;
+    border-bottom: 5px solid #1f7fb2 !important;
+    border-radius: 20px 20px 0px 0px !important;
+    cursor: pointer;
+  }
+  .nav-link:active {
+    border-bottom: 5px solid #1f7fb2 !important;
+    cursor: pointer;
+  }
+
+  .sign-btn {
+    width: 150px !important;
+  }
+  .sign-btn a {
+    color: #ffffff;
+  }
+  .navbar-nav li {
+    padding-left: 1rem;
+  }
+
+  .sign-btn a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

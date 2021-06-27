@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+
+ /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative; /* This is  important*/
+  /* overflow: auto; */
+/* } */
+/*.container {
+  min-height: 200px;
+} */
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+footer {
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  bottom: 0;
+  padding-top: 1rem;
+  width: 100%;
+  background: #1f7fb2;
+  color: #ffffff;
+}
+
+footer li a{
+  color: #ffffff;
+}
+
+.social {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  margin: 1.2rem;
+}
+.right {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+.left {
+  padding-left: 1rem;
+}
+.social img {
+  height: 2rem;
+}
+.social li {
+  padding-top: 0.1rem;
+
+  display: inline-block;
+}
+.social p {
+  padding-bottom: 1rem;
+}
+
+.right ul img {
+  margin-left: 4rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  line-height: 2;
+}
+
+.copy {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 576px) {
+  footer {
+    font-size: 0.7rem;
+  }
+  .social img {
+    height: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .social img {
+    height: 1rem;
+  }
+}
